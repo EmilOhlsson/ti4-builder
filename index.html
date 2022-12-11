@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>
+        <table>
+            <tr>
+                <td>Sarween tools</td>
+                <td>
+                    <input type="checkbox" class="has_sarween_tools">
+                </td>
+            </tr>
+        </table>
+        </p>
+        <p>
+        <table>
+            <thead>
+                <tr>
+                    <td>Unit</td>
+                    <td>Cost</td>
+                    <td>Amount</td>
+                </tr>
+            </thead>
+            <tr>
+                <td>Flagship</td>
+                <td><label class="flagship_cost">8</label></td>
+                <td><input type="number" value="0" min="0" max="1" required class="flagship_amount"></td>
+            </tr>
+            <tr>
+                <td><label>Warsun</label></td>
+                <td><label class="warsun_cost">12</label></td>
+                <td><input type="number" value="0" min="0" max="3" required class="warsun_amount"></td>
+            </tr>
+            <tr>
+                <td><label>Dreadnaught</label></td>
+                <td><label class="dreadnaught_cost">4</label></td>
+                <td><input type="number" value="0" min="0" max="5" required class="dreadnaught_amount"></td>
+            </tr>
+            <tr>
+                <td><label>Cruiser</label></td>
+                <td><label class="cruiser_cost">2</label></td>
+                <td><input type="number" value="0" min="0" required class="cruiser_amount"></td>
+            </tr>
+            <tr>
+                <td><label>Destroyer</label></td>
+                <td><label class="destroyer_cost">1</label></td>
+                <td><input type="number" value="0" min="0" required class="destroyer_amount"></td>
+            </tr>
+            <tr>
+                <td><label>Carrier</label></td>
+                <td><label class="carrier_cost">3</label></td>
+                <td><input type="number" value="0" min="0" required class="carrier_amount"></td>
+            </tr>
+            <tr>
+                <td><label>2x Fighter</label></td>
+                <td><label class="fighter_cost">1</label></td>
+                <td><input type="number" value="0" min="0" required class="fighter_amount"></td>
+            </tr>
+            <tr>
+                <td><label>2x Infantry</label></td>
+                <td><label class="infantry_cost">1</label></td>
+                <td><input type="number" value="0" min="0" required class="infantry_amount"></td>
+            </tr>
+        </table>
+        </p>
+        <p>
+        <table>
+            <tr>
+                <td>Cost</td>
+                <td><label class="cost">0</label></td>
+            </tr>
+            <tr>
+                <td>Units</td>
+                <td><label class="units">0</label></td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+<!-- vim: set et ts=4 sw=4 ss=4 tw=100 : -->
