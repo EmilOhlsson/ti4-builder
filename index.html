@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Header</h1>
-        <em>Hello, world</em>
-        <script src="script.js"/></script>
-        <form>
+        <em id="greeting">Hello, world</em>
+        <script src="script.js"></script>
+
+        <form name="form">
+            <input name="result" type = "text">
             <button onclick="foo();" >Click me</button>
+            <button onclick="bar();" >And me</button>
             <!-- TODO: Create buttons for all ship types, and relevant technologies -->
         </form>
     </body>
