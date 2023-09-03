@@ -32,6 +32,10 @@ const units = {
         amount: 2,
         cost: 1,
     },
+    mech: {
+        amount: 1,
+        cost: 2,
+    },
 };
 
 /* Set up all event handling. All changed values will call `onChange`, which will
@@ -69,8 +73,6 @@ function onChange() {
     /* Write result to labels */
     costLabel.innerHTML = String(cost);
     unitsLabel.innerHTML = String(produced);
-    const nFlagships = Number(entries['flagship'].amount.value);
-
 }
 
 /* vim: set et ts=4 sw=4 ss=4 tw=100 : */
